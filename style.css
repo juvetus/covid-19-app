@@ -1,0 +1,9 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    color: blue;
+}
+.text-muted {
+    color:red !important;
+}
