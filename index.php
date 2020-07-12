@@ -50,14 +50,14 @@ include "logic.php";
         <div class="row text-center">
             <div class="col-4 text-warning">
                 <h5>Confirmer</h5>
-                <?php echo $total_confirmed; ?>
+                <?php echo  $total_confirmed;?>
             </div>
             <div class="col-4 text-success">
-                <h5>Retabli(es)</h5>
+                <h5>Rétabli(es)</h5>
                 <?php echo $total_recovered; ?>
             </div>
             <div class="col-4 text-danger">
-                <h5>Deceder</h5>
+                <h5>Décéder</h5>
                 <?php echo $total_deaths; ?>
             </div>
 
@@ -79,8 +79,8 @@ include "logic.php";
 
                         <th scope="col">Pays</th>
                         <th scope="col">Confirmer</th>
-                        <th scope="col">Retabli(es)</th>
-                        <th scope="col">Deceder</th>
+                        <th scope="col">Rétabli(es)</th>
+                        <th scope="col">Décéder</th>
                         <th scope="col">Date</th>
 
                     </tr>
@@ -96,7 +96,7 @@ include "logic.php";
                             <td>
                                 <?php echo $value[$days_count]['confirmed']; ?>
                                 <?php if ($increase != 0) { ?>
-                                    <small class="text-danger pl-3"><i class="fas fa-arrow-up"></i><?php echo $increase; ?></small>
+                                    <small class="text-danger pl-3"><i class="fas fa-arrow-up"></i><?php echo  "Test Positif au Covid-19 :   ",$increase; ?></small>
 
                                 <?php } ?>
                             </td>
